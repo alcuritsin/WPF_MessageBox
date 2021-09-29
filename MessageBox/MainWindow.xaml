@@ -1,0 +1,15 @@
+﻿<Window x:Class="MessageBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MessageBox"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Button x:Name="Button_resume" Content="Show resume" Click="Button_resume_OnClick"/>
+        <Button x:Name="Button_find_number" Content="Угадай число" Click="Button_find_number_OnClick"/>
+        <Button x:Name="Button_MausClik" Content="New Windows Show" Click="Button_New_Windows"/>
+        <Button x:Name="Button_StatickPaint" Content="New Window Statick" Click="Button_StatickPaint_Click"/>
+    </StackPanel>
+</Window>

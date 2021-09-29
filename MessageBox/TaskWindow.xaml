@@ -1,0 +1,21 @@
+﻿<Window x:Class="MessageBox.TaskWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MessageBox"
+        mc:Ignorable="d"
+        Title="TaskWindow" Height="450" Width="800"
+        MouseMove="Grid_MouseMove"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown"
+        MouseRightButtonDown="Window_MouseRightButtonDown"
+        >
+
+    <WrapPanel x:Name="WrapPanelWindow" >
+        <!--<DockPanel x:Name="DockerPanelWindows" LastChildFill="false">
+        </DockPanel>-->
+        <!--<Label x:Name="labelX" Content="x:" Width="70"/>
+        <Label x:Name="labelY" Content="y:" Width="70"/>
+        <Label x:Name="label" Content="label:" Width="70"/>-->
+    </WrapPanel>
+</Window>
